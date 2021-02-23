@@ -6,14 +6,12 @@ import {
   StyleSheet,
   Platform,
   TouchableOpacity,
-  Dimensions,
   TextInput,
 } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import FontAwesome from "react-native-vector-icons/FontAwesome";
 import Feather from "react-native-vector-icons/Feather";
 import { AuthContext } from "../components/context";
-import { color } from "react-native-reanimated";
 
 const SignInScreen = ({ navigation }) => {
   const [data, setData] = React.useState({
